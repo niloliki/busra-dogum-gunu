@@ -1,1 +1,36 @@
 
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Büşra'nın Doğum Günü Macerası</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>🎮 Büşra'nın Doğum Günü Görevi 🎂</h1>
+        <div class="scene" id="scene1">
+            <h2>Level 1: Lise Yurdu</h2>
+            <p>Sessiz bir gece, yurtta sadece Büşra ve sen varsın. "Yemek sonrası muhabbetler kaldığı yerden..."</p>
+            <button onclick="nextScene(2)">Devam et</button>
+        </div>
+        <div class="scene" id="scene2" style="display:none;">
+            <h2>Level 2: Koro Provası</h2>
+            <p>Sen gitarını akordlarken, Büşra mikrofona yaklaşıyor... "Hazır mısın?"</p>
+            <button onclick="nextScene(3)">Devam et</button>
+        </div>
+        <div class="scene" id="scene3" style="display:none;">
+            <h2>Level 3: Gece Yemekhanesi</h2>
+            <p>Masa başında gece muhabbetleri... Hayat, kahkahalar ve sırlar.</p>
+            <button onclick="nextScene(4)">Son Sahne</button>
+        </div>
+        <div class="scene" id="scene4" style="display:none;">
+            <h2>🎉 Final: Doğum Günü Sahnesi 🎉</h2>
+            <p><strong>Mutlu Yıllar Büşra!</strong><br>Seninle paylaştığımız her an özel ve unutulmazdı. Yeni yaşın sana güzellikler getirsin!</p>
+            <img src="celebration.jpg" alt="Kutlama" class="celebration-img">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
